@@ -18,6 +18,10 @@ a {
   outline: none;
 }
 
+.button:hover {
+  background-color: #369df1;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -62,5 +66,9 @@ body {
   padding: 20px 43px;
   letter-spacing: 2.2px;
   color: #7e8bae;
+}
+
+.header-block_btn__g:hover {
+  background-color: #dde7f0;
 }
 /*# sourceMappingURL=style.css.map */
