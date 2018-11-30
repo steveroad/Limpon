@@ -184,7 +184,8 @@ body {
 
 .price-block {
   background: url(../img/price/bg.png) no-repeat;
-  width: 350px;
+  -ms-flex-preferred-size: 350px;
+      flex-basis: 350px;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
