@@ -121,7 +121,71 @@ body {
 }
 
 .email-form {
-  background-color: #aeaeae;
+  padding-top: 25px;
+  padding-bottom: 28px;
+  background: url(../img/email-form/bg-gradient.png);
+  background-size: cover;
+}
+
+.email-form-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.email-form-description_title {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: -1.7px;
+}
+
+.email-form-description_title__small {
+  font-size: 14px;
+  color: #00bffe;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2.8px;
+}
+
+.email-form-description_text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #dfe8ff;
+  line-height: 30px;
+}
+
+.email-form_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 7px 7px 7px 0px;
+  border: 1px solid #fff;
+  width: 100%;
+  max-width: 530px;
+  border-radius: 30px;
+}
+
+.email-form_form__input {
+  background: transparent;
+  border: none;
+  margin-left: 40px;
+  width: 360px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #b1c3ee;
+}
+
+.email-form_form__button {
+  letter-spacing: 3.9px;
+  padding: 17px 41px 19px 46px;
+  cursor: pointer;
 }
 
 .company {
