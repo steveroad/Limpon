@@ -160,16 +160,17 @@ body {
   font-weight: 800;
   color: #1085e4;
   font-size: 18px;
-  letter-spacing: 3px;
+  letter-spacing: 3.5px;
 }
 
 .price-title_pricing {
-  margin-top: 20px;
+  margin-top: 21px;
   font-weight: 600;
   font-size: 40px;
   color: #192b59;
-  letter-spacing: -1px;
+  letter-spacing: -1.3px;
   padding-bottom: 45px;
+  margin-right: 5px;
 }
 
 .price-blocks {
@@ -195,15 +196,44 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-bottom: 85px;
+  padding-bottom: 80px;
+  padding-top: 1px;
+}
+
+.price-block:hover {
+  background: #192b59;
+}
+
+.price-block:hover h2 {
+  color: #fff;
+}
+
+.price-block:hover span {
+  color: #fff;
+}
+
+.price-block:hover p {
+  color: #fff;
+}
+
+.price-block:hover a {
+  background-color: #1085e4;
+  border: 1px solid #1085e4;
+  color: #fff;
+}
+
+.price-block:hover a:hover {
+  background-color: #fff;
+  color: #1085e4;
 }
 
 .price-block_title {
+  margin-right: 4px;
   color: #000958;
   font-size: 70px;
   font-weight: 700;
   letter-spacing: -2px;
-  margin-bottom: 18px;
+  margin-bottom: 14px;
 }
 
 .price-block_title__small {
@@ -211,6 +241,7 @@ body {
   color: #7b8ab2;
   font-weight: 700;
   font-size: 20px;
+  letter-spacing: 0.2px;
 }
 
 .price-block_small {
@@ -218,18 +249,19 @@ body {
   color: #0084ff;
   font-size: 14px;
   font-weight: 700;
-  letter-spacing: 3px;
-  padding-bottom: 20px;
+  letter-spacing: 2.7px;
+  padding-bottom: 19px;
 }
 
 .price-block_description {
+  margin-right: 3px;
   text-align: center;
   max-width: 150px;
   color: #8085b1;
   font-size: 14px;
   font-weight: 400;
   line-height: 40px;
-  padding-bottom: 20px;
+  padding-bottom: 23px;
 }
 
 .price-block_button {
@@ -238,21 +270,11 @@ body {
   color: #8085b1;
 }
 
-.price-block_button:hover {
-  background-color: #8085b1;
-  color: #cbdbe8;
-}
-
 .dollar {
   color: #192b59;
 }
 
-.activ {
-  background: #192b59;
-  color: #fff;
-}
-
 .button-size {
-  padding: 20px 60px;
+  padding: 23px 62px;
 }
 /*# sourceMappingURL=style.css.map */
