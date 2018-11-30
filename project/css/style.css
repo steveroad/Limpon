@@ -2,6 +2,10 @@ a {
   text-decoration: none;
 }
 
+input:focus {
+  outline: none;
+}
+
 .box {
   width: 100%;
   max-width: 1110px;
@@ -25,7 +29,7 @@ a {
 }
 
 .button:hover {
-  background-color: #fff;
+  background-color: transparent;
   color: #1085e4;
 }
 
@@ -62,7 +66,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-bottom: 245px;
+  margin-bottom: 300px;
 }
 
 .header-block_list {
@@ -83,8 +87,7 @@ body {
 
 .header-block_list .nav-item {
   color: #6e7ea9;
-  padding-right: 37px;
-  margin-right: 2.5px;
+  padding-right: 39.5px;
 }
 
 .header-block_list__button {
@@ -94,7 +97,6 @@ body {
 }
 
 .header-block_title {
-  margin-left: -5px;
   color: #192b59;
   font-size: 80px;
   font-weight: 600;
@@ -114,8 +116,12 @@ body {
 }
 
 .header-block_btn__g:hover {
-  background-color: #7e8bae;
+  background-color: transparent;
   color: #cbdbe8;
+}
+
+.email-form {
+  background-color: #aeaeae;
 }
 
 .company {
@@ -184,8 +190,8 @@ body {
 
 .price-block {
   background: url(../img/price/bg.png) no-repeat;
-  -ms-flex-preferred-size: 350px;
-      flex-basis: 350px;
+  -ms-flex-preferred-size: 31.5%;
+      flex-basis: 31.5%;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -224,12 +230,11 @@ body {
 }
 
 .price-block:hover a:hover {
-  background-color: #fff;
+  background-color: transparent;
   color: #1085e4;
 }
 
 .price-block_title {
-  margin-right: 4px;
   color: #000958;
   font-size: 70px;
   font-weight: 700;
@@ -255,14 +260,13 @@ body {
 }
 
 .price-block_description {
-  margin-right: 3px;
   text-align: center;
   max-width: 150px;
   color: #8085b1;
   font-size: 14px;
   font-weight: 400;
   line-height: 40px;
-  padding-bottom: 23px;
+  margin-bottom: 38px;
 }
 
 .price-block_button {
