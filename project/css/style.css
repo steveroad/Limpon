@@ -346,4 +346,46 @@ body {
 .button-size {
   padding: 23px 62px;
 }
+
+.footer {
+  background: #192b59;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-text_title {
+  font-weight: 400;
+  font-size: 16px;
+  color: #b6bae0;
+}
+
+.footer-text_small {
+  text-transform: uppercase;
+  color: #1085e4;
+}
+
+.footer-social_ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-social_ul li {
+  margin-left: 30px;
+}
 /*# sourceMappingURL=style.css.map */
