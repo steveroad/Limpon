@@ -240,6 +240,7 @@ body {
   font-size: 16px;
   color: #7581a1;
   font-weight: 400;
+  letter-spacing: 0.5px;
 }
 
 .advantage-block_link {
@@ -277,8 +278,8 @@ body {
 .email-form {
   padding-top: 25px;
   padding-bottom: 28px;
-  background: url(../img/email-form/bg-gradient.png);
-  background-size: cover;
+  background-color: #0a2090;
+  background: linear-gradient(135deg, #0a2090 0%, #2378cd 100%);
 }
 
 .email-form-block {
@@ -411,6 +412,37 @@ body {
       -ms-flex-align: center;
           align-items: center;
   letter-spacing: 3px;
+}
+
+.prewiev {
+  padding-top: 50px;
+  background: #edf6ff;
+}
+
+.prewiev-header {
+  text-align: center;
+}
+
+.prewiev-header-title {
+  color: #192b59;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: -1.4px;
+}
+
+.prewiev-header-title_small {
+  padding-bottom: 21px;
+  display: block;
+  font-size: 18px;
+  font-weight: 800;
+  color: #1085e4;
+  text-transform: uppercase;
+  letter-spacing: 3.6px;
+}
+
+.prewiev-img {
+  text-align: center;
+  padding-top: 32px;
 }
 
 .price {
