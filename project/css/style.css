@@ -365,9 +365,8 @@ body {
   max-width: 600px;
 }
 
-.software-block-icon {
-  margin-left: -24px;
-  padding-bottom: 10px;
+.software-block-scroll {
+  padding-left: 24px;
 }
 
 .software-block-img {
