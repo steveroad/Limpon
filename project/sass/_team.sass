@@ -1,0 +1,74 @@
+.team
+  background: url(../img/team/bg.png)  no-repeat
+  background-size: center
+  padding-top: 120px
+  padding-bottom: 120px
+  &-header
+    display: flex
+    flex-direction: column
+    align-items: center
+    &-title
+      color: #fff
+      font-size: 40px
+      font-weight: 600
+      margin: 0
+      padding-bottom: 150px
+      &_small
+        color: #85c8ff
+        font-size: 18px
+        font-weight: 800
+        text-transform: uppercase
+  &-blocks
+    display: flex
+    justify-content: space-between
+  &-block
+    position: relative
+    flex-basis: 31%
+    background: #fff
+    padding-top: 215px
+    padding-bottom: 50px
+    box-shadow: 0px 20px 30px #dad6d3
+    display: flex
+    flex-direction: column
+    align-items: center
+    &-img
+      position: absolute
+      bottom: 175px
+    &-state
+      font-size: 14px
+      letter-spacing: 2px
+      color: #1a88e1
+      text-transform: uppercase
+      font-weight: 800
+    &-name
+      margin: 0
+      font-size: 26px
+      color: #192b59
+      font-weight: 600
+      padding-bottom: 15px
+    &-links
+      display: flex
+      justify-content: center
+      &_btn
+        background-color: #f3f3f3
+        border-radius: 100%
+        display: block
+        width: 50px
+        height: 50px
+        margin: 0 auto
+        border: none
+        &:hover
+          background-color: #1a88e1
+        &__team
+          padding: 0
+          & span
+            background-image: url(../img/team/btn-team.png) center center no-repeat
+            background-size: -5px -4px
+            width: 20px
+            height: 21px
+            display: block
+            margin: 0 auto
+        &:focus
+          outline: none
+
+
