@@ -1,6 +1,7 @@
 .team
-  background: url(../img/team/bg.png)  no-repeat
-  background-size: center
+  background: url(../img/team/bg.png) no-repeat
+  background-position: center
+  background-size: cover
   padding-top: 120px
   padding-bottom: 120px
   &-header
@@ -52,23 +53,84 @@
       &_btn
         background-color: #f3f3f3
         border-radius: 100%
-        display: block
+        display: flex
         width: 50px
         height: 50px
         margin: 0 auto
         border: none
         &:hover
           background-color: #1a88e1
+        &:hover span
+          background-position: -6.5px -35px
         &__team
           padding: 0
           & span
-            background-image: url(../img/team/btn-team.png) center center no-repeat
-            background-size: -5px -4px
+            background-image: url(../img/team/btn-team.png)
+            background-repeat: no-repeat
+            background-position: -6.5px -11px
             width: 20px
             height: 21px
             display: block
+            align-self: center
             margin: 0 auto
         &:focus
           outline: none
-
-
+        &__ul
+          margin: 0
+          padding: 0
+          list-style-type: none
+          display: flex
+          justify-content: center
+          & li
+            margin: 0px 10px 0px 10px
+        &__fb
+          &:hover span
+            background-position: -37px -35px
+          & span
+            background-image: url(../img/team/btn-team.png)
+            background-repeat: no-repeat
+            background-position: -37px -11px
+            width: 14px
+            height: 21px
+            display: block
+            align-self: center
+            margin: 0 auto
+        &__tw
+          &:hover span
+            background-position: -66px -35px
+          & span
+            background-image: url(../img/team/btn-team.png)
+            background-repeat: no-repeat
+            background-position: -66px -11px
+            width: 14px
+            height: 21px
+            display: block
+            align-self: center
+            margin: 0 auto
+        &__be
+          &:hover span
+            background-position: -94px -35px
+          & span
+            background-image: url(../img/team/btn-team.png)
+            background-repeat: no-repeat
+            background-position: -94px -11px
+            width: 16px
+            height: 21px
+            display: block
+            align-self: center
+            margin: 0 auto
+        &__web
+          &:hover span
+            background-position: -127px -35px
+          & span
+            background-image: url(../img/team/btn-team.png)
+            background-repeat: no-repeat
+            background-position: -127px -11px
+            width: 14px
+            height: 21px
+            display: block
+            align-self: center
+            margin: 0 auto
+    &-list
+      display: flex
+      justify-content: center

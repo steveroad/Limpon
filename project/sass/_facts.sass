@@ -1,6 +1,7 @@
 .facts
   padding-top: 100px
   padding-bottom: 100px
+  position: relative
   background: #edf6ff
   background-size: cover
   &-header
@@ -46,3 +47,25 @@
         flex-direction: column
         align-items: center
         letter-spacing: 3px
+  &-circle
+    display: block
+    position: absolute
+    left: 0
+    bottom: -363px
+    background-image: url(../img/facts/circle.svg)
+    background-repeat: no-repeat
+    background-size: contain
+    width: 413px
+    height: 758px
+    z-index: 1
+  &-square
+    display: block
+    position: absolute
+    right: 0
+    top: -200px
+    background-image: url(../img/facts/square.svg)
+    background-repeat: no-repeat
+    background-size: contain
+    width: 569px
+    height: 661px
+    z-index: 1

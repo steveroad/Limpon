@@ -192,10 +192,13 @@
       </ul>
     </div>
     </div>
+    <div class="facts-circle"></div>
+    <div class="facts-square"></div>
   </section>
 
   <section class="attachment">
     <div class="box">
+      <div class="attachment-intro">Intro</div>
       <div class="attachment-blocks">
       <div class="attachment-block">
         <h2 class="attachment-block_title">Meet With <br> Future Landingpage</h2>
@@ -380,7 +383,15 @@
           <span class="team-block-state">founder</span>
           <h3 class="team-block-name">Ricardo T. Obrien</h3>
           <div class="team-block-links">
-            <button class="team-block-links_btn team-block-links_btn__team" type="button"><span></span></button>
+            <button class="team-block-links_btn team-block-links_btn__team btn-ricardo" type="button"><span></span></button>
+          </div>
+          <div class="team-block-list">
+            <ul class="team-block-links_btn__ul links-ricardo" style="display:none">
+              <li><a href="#" target="_blank" class="team-block-links_btn team-block-links_btn__fb"><span></span></a></li>
+              <li><a href="#" target="_blank" class="team-block-links_btn team-block-links_btn__tw"><span></span></a></li>
+              <li><a href="#" target="_blank" class="team-block-links_btn team-block-links_btn__be"><span></span></a></li>
+              <li><a href="#" target="_blank" class="team-block-links_btn team-block-links_btn__web"><span></span></a></li>
+            </ul>
           </div>
         </div>
 
@@ -391,7 +402,15 @@
           <span class="team-block-state">ceo</span>
           <h3 class="team-block-name">Alberto Del Rio</h3>
           <div class="team-block-links">
-            <button class="team-block-links_btn team-block-links_btn__team" type="button"><span></span></button>
+            <button class="team-block-links_btn team-block-links_btn__team btn-alberto" type="button"><span></span></button>
+          </div>
+          <div class="team-block-list">
+            <ul class="team-block-links_btn__ul links-alberto" style="display:none">
+              <li><a href="#" target="_blank" class="team-block-links_btn team-block-links_btn__fb"><span></span></a></li>
+              <li><a href="#" target="_blank" class="team-block-links_btn team-block-links_btn__tw"><span></span></a></li>
+              <li><a href="#" target="_blank" class="team-block-links_btn team-block-links_btn__be"><span></span></a></li>
+              <li><a href="#" target="_blank" class="team-block-links_btn team-block-links_btn__web"><span></span></a></li>
+            </ul>
           </div>
         </div>
 
@@ -402,24 +421,32 @@
           <span class="team-block-state">designer</span>
           <h3 class="team-block-name">Thomas Alva Adison</h3>
           <div class="team-block-links">
-            <button class="team-block-links_btn team-block-links_btn__team" type="button"><span></span></button>
+            <button class="team-block-links_btn team-block-links_btn__team btn-thomas" type="button"><span></span></button>
           </div>
+          <div class="team-block-list">
+            <ul class="team-block-links_btn__ul links-thomas" style="display:none">
+              <li><a href="#" target="_blank" class="team-block-links_btn team-block-links_btn__fb"><span></span></a></li>
+              <li><a href="#" target="_blank" class="team-block-links_btn team-block-links_btn__tw"><span></span></a></li>
+              <li><a href="#" target="_blank" class="team-block-links_btn team-block-links_btn__be"><span></span></a></li>
+              <li><a href="#" target="_blank" class="team-block-links_btn team-block-links_btn__web"><span></span></a></li>
+            </ul>
+          </div> 
         </div>
       </div>
     </div>
   </section>
 
   <section class="block-form">
-    <div class="block-form_img">
+    <div class="box flex-form">
       <img src="img/block-form/wind.png" alt="wind">
-    </div>
-    <div class="box block-flex">
-      <div class="block-form_forms">
-        <h2 class="block-form_title">Start Your Free Trail No Need Credit Card.</h2>
-        <input class="block-form_name" type="text" placeholder="Enter your name here">
-        <input class="block-form_email" type="email" placeholder="Enter your email here">
-        <textarea class="block-form_area" name="" cols="30" rows="5" placeholder="Enter your message here"></textarea>
-        <a class="button block-form_button" href="">submit now</a>
+      <div>
+      <h2 class="block-form_title">Start Your Free Trail No Need Credit Card.</h2>
+        <form action="#" class="block-form_forms">
+          <div class="block-form-items block-form_name"><input class="block-form_item" type="text" placeholder="Enter your name here"></div>
+          <div class="block-form-items block-form_email"><input class="block-form_item" type="email" placeholder="Enter your email here"></div>
+          <div class="block-form-items block-form_text"><textarea class="block-form_item" name="" placeholder="Enter your message here"></textarea></div>
+          <button class="button block-form_button" type="submit"><span></span>submit now</button>
+        </form>
       </div>
     </div>
   </section>
@@ -448,5 +475,22 @@
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
+
+  <script>
+    $(document).ready(function(){
+      $(".btn-ricardo").click(function(){
+        $(".btn-ricardo").hide();  
+        $(".links-ricardo").fadeIn();
+      });
+      $(".btn-alberto").click(function(){
+        $(".btn-alberto").hide();  
+        $(".links-alberto").fadeIn();
+      });
+      $(".btn-thomas").click(function(){
+        $(".btn-thomas").hide();  
+        $(".links-thomas").fadeIn();
+      });
+    });
+  </script>
 </body>
 </html>
